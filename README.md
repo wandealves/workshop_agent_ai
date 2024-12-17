@@ -6,7 +6,7 @@ qwen2.5:3b
 
 ## Pull a model
 
-docker exec -it ollama ollama pull qwen2.5:3b
+docker exec -it ollama ollama run qwen2.5:3b
 
 ## Remove a model
 
