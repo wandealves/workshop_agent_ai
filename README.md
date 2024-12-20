@@ -1,10 +1,6 @@
 # Ollama
 
-## Run
-
-qwen2.5:3b
-
-## Pull a model
+## Run model
 
 docker exec -it ollama ollama run qwen2.5:3b
 
