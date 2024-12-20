@@ -2,7 +2,7 @@ from langchain_ollama import OllamaLLM
 from langchain.agents import initialize_agent, AgentType, tool,Tool
 
 ollama_llm = OllamaLLM(
-    model="gemma2:2b",
+    model="qwen2.5:3b",
     base_url="http://localhost:11434",
 )
 

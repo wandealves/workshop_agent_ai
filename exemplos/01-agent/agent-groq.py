@@ -35,7 +35,7 @@ agent = initialize_agent(
 )
 
 if __name__ == "__main__":
-    query = "qual time foi campeão doo brasileirão 2024?"
+    query = "qual time foi campeão do brasileirão 2024?"
     print("\nExecutando consulta no agente...\n")
     response = agent.run(query)
     print("\nResposta do Agente:\n", response)
